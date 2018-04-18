@@ -17,7 +17,7 @@ API documentations.
 O spring MVC oferece um grande suporte a implementação de CDC, com o spring cloud contract, através do wiremock e do stub runner, mas também existem outras ferramentas como o pact que é um conjunto de frameworks que dão suporte a testes de CDC dando suportando atualmente 9 linguagens de programação. Além destes também contamos com serviços de documentação de API como Swagger, serviços de mensageria como RabbitMQ, Kafka e Nats. Apis que provem endpoints de estado do seviço como Actuator. Além de uma série de APIs e bibliotecas providas pelo Spring Cloud.
 
 ## 4.2. Use of ESB and iPaaS with microservices
-How can we have the same features present in EBS's with lightweight tools in the universe of microservices? Justify your answer.
+#### How can we have the same features present in EBS's with lightweight tools in the universe of microservices? Justify your answer.
 Em um cenário em que é necessária uma comunicação heterogênea entre sistemas, normalmente cenários que envolvem sistemas novos e sistemas legados, o uso de um ESB é muito recomendado, porém em casos em que além deste cenário se quer adquirir características da arquitetura de microservices, como escalabilidade automática e seletiva, podemos utilizar a arquitetura de microservice. Porém para padronizar a comunicação, podemos usar o ESB como uma interface entre um conjunto de sistemas heterogêneos e os microservices, onde um gateway service direciona a integração entre os microservices e o barramento.
 
 ## 4.3. Microservices challenges - Data islands
