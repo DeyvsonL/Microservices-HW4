@@ -21,7 +21,7 @@ O spring MVC oferece um grande suporte a implementação de CDC, com o spring cl
 Em um cenário em que é necessária uma comunicação heterogênea entre sistemas, normalmente cenários que envolvem sistemas novos e sistemas legados, o uso de um ESB é muito recomendado, porém em casos em que além deste cenário se quer adquirir características da arquitetura de microservices, como escalabilidade automática e seletiva, podemos utilizar a arquitetura de microservice. Porém para padronizar a comunicação, podemos usar o ESB como uma interface entre um conjunto de sistemas heterogêneos e os microservices, onde um gateway service direciona a integração entre os microservices e o barramento.
 
 ## 4.3. Microservices challenges - Data islands
-How can be done data porting from microservices to a data lake or a data warehouse? Explain in details your answer.
+#### How can be done data porting from microservices to a data lake or a data warehouse? Explain in details your answer.
 Podemos enviar eventos aos microservices e quando esses eventos ocorrerem, ferramentas de ingestão de dados vão consumir  e propagar as mudanças no data lake apropriadamente.  Podemos usar ferramentas de ingestão de dados como kafka ou Spring Cloud Data Flow.
 
 
